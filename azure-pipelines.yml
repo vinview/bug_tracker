@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'localhost'
+  vmImage: '127.0.0.1'
 
 steps:
 - script: echo Hello, world!
